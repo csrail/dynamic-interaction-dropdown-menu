@@ -1,7 +1,7 @@
 {
-  "name": "dynamic-interactions",
+  "name": "dropdown-menu",
   "version": "1.0.0",
-  "description": "basic javascript components",
+  "description": "dropdown menu made with vanilla javascript",
   "private": true,
   "main": "src/index.js",
   "scripts": {
