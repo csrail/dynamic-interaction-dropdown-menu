@@ -1,7 +1,8 @@
 {
-  "name": "dropdown-menu",
+  "name": "@npm-csrail/dropdown-menu",
   "version": "1.0.0",
   "description": "dropdown menu made with vanilla javascript",
+  "homepage": "https://github.com/csrail/dynamic-interaction-dropdown-menu",
   "private": true,
   "main": "src/index.js",
   "scripts": {
