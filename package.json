@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "dropdown menu made with vanilla javascript",
   "homepage": "https://github.com/csrail/dynamic-interaction-dropdown-menu",
-  "private": true,
   "main": "src/index.js",
   "scripts": {
     "build": "webpack build --config ./webpack.production.config.js",
