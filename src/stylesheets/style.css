@@ -1,0 +1,41 @@
+.red {
+    color: #27272a;
+}
+
+header {
+    display: flex;
+    height: 50px;
+    width: 100vw;
+    background-color: red;
+}
+
+nav > ul {
+    position: fixed;
+}
+
+.menu-dropdown-button {
+    padding: 0.6em 1em 0.6em 1em;
+}
+
+.dropdown-button {
+    padding: 0.6em 1em 0.6em 1em;
+}
+
+.dropdown-content {
+    background-color: #0086b3;
+    width: 100px;
+    border: red 1px solid;
+}
+
+.dropdown-content a {
+    display: flex;
+    padding: 0.4em 0.7em 0.4em 0.7em;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
