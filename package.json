@@ -1,9 +1,10 @@
 {
   "name": "@npm-csrail/dropdown-menu",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "dropdown menu made with vanilla javascript",
   "homepage": "https://github.com/csrail/dynamic-interaction-dropdown-menu",
-  "main": "src/index.js",
+  "main": "dist/bundle.js",
+  "files": ["dist", "src"],
   "scripts": {
     "build": "webpack build --config ./webpack.production.config.js",
     "build:stats": "webpack build --config ./webpack.production.config.js --stats verbose",
@@ -25,6 +26,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
+    "@npm-csrail/dropdown-menu": "^1.0.0",
     "html-webpack-plugin": "^5.5.3",
     "webpack-merge": "^5.10.0"
   }
